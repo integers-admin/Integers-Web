@@ -1,0 +1,21 @@
+{
+    "items": [
+        {
+            "label": "Custom Agents",
+            "value": "30"
+        },
+        {
+            "label": "B2B Industries",
+            "value": "20"
+        },
+        {
+            "label": "Business Growth",
+            "value": "75",
+            "suffix": "%"
+        },
+        {
+            "label": "Marketing Services",
+            "value": "30"
+        }
+    ]
+}

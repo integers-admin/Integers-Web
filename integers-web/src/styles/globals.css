@@ -1,0 +1,302 @@
+.privacy-page {
+  background-color: #f5f5f5;
+  color: #001413;
+}
+
+.privacy-page .container {
+  padding: 30px 0;
+}
+
+@media (max-width: 768px) {
+  .privacy-page.mil-p-120-90 {
+    padding-top: 80px !important;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.paragraph-text-custom {
+  color: #001413;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 25px;
+}
+
+.effective-date {
+  margin-top: 20px;
+}
+
+.paragraph-text-custom-child {
+  margin-top: 7px;
+}
+
+.paragraph-text-custom-child-ul li {
+  list-style-type: disc !important;
+  padding-left: 20px;
+  list-style-position: inside;
+}
+
+.effective-date-txt {
+  font-weight: 500;
+}
+
+.career-page-main {
+  display: flex;
+  justify-content: space-between;
+  color: #001413;
+}
+
+.career-page-child1 {
+  width: 420px;
+}
+
+.career-page-child2 {
+  width: 620px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.career-page-child-container1 {
+  height: 74px;
+  width: 74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.career-page-child-container2 {
+  margin-top: 25px;
+}
+
+.career-page-child-container2-txt1 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.career-page-child-container2-txt2 {
+  margin-top: 7px;
+}
+
+.career-page-child1-text1 {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.career-page-child1-text2 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 7px;
+}
+
+.career-page-child1-text3 {
+  margin-top: 16px;
+}
+
+@media (max-width: 900px) {
+  .career-page-main {
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .career-page-child2 {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 700px) {
+  .career-page-child2 {
+    grid-template-columns: 1fr;
+  }
+
+  .career-page-child1 {
+    width: 320px;
+    margin: auto;
+  }
+
+  .career-page-child2 {
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+
+.career-page-main1 {
+  margin-top: 80px;
+  color: #001413;
+}
+
+.career-page-main1-txt1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.career-page-main1-txt2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 27px;
+  margin-top: 5px;
+}
+
+.career-page-main1-child {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin-top: 50px;
+}
+
+.career-page-main1-child1 {
+  box-shadow: 0px 0px 8px rgb(219, 219, 219);
+  padding: 20px;
+  position: relative;
+  cursor: pointer;
+  min-height: 160px;
+}
+
+.career-page-main1-container {
+  border: black solid 2px;
+}
+
+.career-page-main1-child1 .icon {
+  position: absolute;
+  right: 5px;
+  bottom: 0px;
+}
+
+.career-page-main1-child1 span {
+  font-weight: 500;
+}
+
+.career-page-main1-child1-txt {
+  font-weight: 500;
+}
+
+.main-career-detail {
+  width: 100%;
+  background-color: #c7f5f4;
+  height: 280px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #001413;
+}
+
+.main-career-detail .txt2 {
+  margin-top: 5px;
+  font-size: 25px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.main-career-detail .txt3 {
+  margin-top: 5px;
+  text-align: center;
+}
+
+
+.career-page {
+  color: #001413;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.career-job-info-title {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.career-job-info .career-meta {
+  margin-top: 8px;
+}
+
+.career-job-info .career-meta span {
+  font-weight: 500;
+}
+
+.career-list {
+  margin-top: 7px;
+}
+
+.career-list li {
+  list-style-type: disc !important;
+  padding-left: 20px;
+  list-style-position: inside;
+}
+
+.main-career-container {
+  display: flex;
+  gap: 2%;
+}
+
+.main-career-container1 {
+  width: 80%;
+}
+
+.main-career-container2 {
+  width: 250px;
+}
+
+@media (max-width: 1024px) {
+  .main-career-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .career-page-main1-child {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main-career-container1 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 710px) {
+  .career-page-main1-child {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* .career-page-child-container {
+  box-shadow: 0px 0px 5px rgb(180, 180, 180);
+  padding: 20px;
+} */
+
+
+.main-career-container-2 {
+  padding: 10px;
+  background-color: #FFF;
+}
+
+.main-career-container-2 .social {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.main-career-container-2 .social .icons {
+  display: flex;
+  gap: 10px;
+  height: 30px;
+}
+
+.main-career-container-2 .social p {
+  font-weight: 500;
+}
+
+.main-career-container-2 .social .icons a img {
+  height: 30px;
+  width: 30px;
+}
+
+.mil-appearance-child {
+  width: 183px;
+  margin: auto;
+}

@@ -1,0 +1,10 @@
+{
+    "subtitle": "Our news",
+    "title": "Read our blogs.",
+    "description": "Receive actionable insights on AI, analytics, and smart marketing strategies.",
+    "button": {
+        "label": "View all",
+        "link": "/blog"
+    },
+    "numOfItems": 3
+}

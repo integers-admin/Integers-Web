@@ -1,0 +1,46 @@
+{
+    "subtitle": "Our solutions help businesses",
+    "title":  "Driving Growth Through Intelligent Systems",
+    "button": {
+        "label": "View all",
+        "link": "#."
+    },
+    "items": [
+        {
+            "name": "Paul Trueman",
+            "image": "img/team/1.png",
+            "role": "CEO Mil design studio",
+            "text": "Automate reporting and eliminate manual inefficiencies"
+        },
+        {
+            "name": "Paul Trueman",
+            "image": "img/team/2.png",
+            "role": "CEO Mil design studio",
+            "text": "Optimize marketing budgets using performance analytics"
+        },
+        {
+            "name": "Paul Trueman",
+            "image": "img/team/3.png",
+            "role": "CEO Mil design studio",
+            "text": "Increase lead generation through targeted digital strategies"
+        },
+        {
+            "name": "Paul Trueman",
+            "image": "img/team/4.png",
+            "role": "CEO Mil design studio",
+            "text": "Improve executive decision-making with real-time dashboards"
+        },
+        {
+            "name": "Paul Trueman",
+            "image": "img/team/3.png",
+            "role": "CEO Mil design studio",
+            "text": "Scale operations with intelligent automation systems"
+        },
+        {
+            "name": "Paul Trueman",
+            "image": "img/team/4.png",
+            "role": "CEO Mil design studio",
+            "text": "Enhance digital presence with branding & visibility growth"
+        }
+    ]
+}

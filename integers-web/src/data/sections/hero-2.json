@@ -1,0 +1,66 @@
+{
+    "title": "Data-Driven Smart Digital Solutions<br /> for Business Growth",
+    "button1": {
+        "label": "Explore Our Solutions",
+        "link": "/services"
+    },
+    "button2": {
+        "label": "Schedule a Strategy Call",
+        "link": "/contact"
+    },
+    "image": {
+        "url": "img/hero/hero-banners.jpg",
+        "alt": "Image"
+    },
+    "rotateText": "DATA ANALYTICS AUTOMATION",
+    "lineText": [
+        {
+            "text": "AI BASED SOFTWARE",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "PERFORMANCE MARKETING",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "SEO & WEB DESIGNING",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "CREATIVES FOR PAID ADS",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "COMPANY & PRODUCT BRANDING",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "EXPERIENCED TEAM",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "TRENDING VIDEOS EDITING",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "AI BASED SOFTWARE",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "PERFORMANCE MARKETING",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "SEO & WEB DESIGNING",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "CREATIVES FOR PAID ADS",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "COMPANY & PRODUCT BRANDING",
+            "separator": ""
+        }
+    ]
+}

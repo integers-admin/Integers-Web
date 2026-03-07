@@ -1,0 +1,44 @@
+{
+    "items": [
+        {
+            "image": "img/partners/image 3 [Vectorized].svg",
+            "link": "https://www.google.com/",
+            "alt": "logo"
+        },
+        {
+            "image": "img/partners/Umang logo Registered White (1) 1.svg",
+            "link": "#.",
+            "alt": "logo"
+        },
+        {
+            "image": "img/partners/Aadar logo-01 1 [Vectorized].svg",
+            "link": "#.",
+            "alt": "logo"
+        },
+        {
+            "image": "img/partners/Group.svg",
+            "link": "#.",
+            "alt": "logo"
+        },
+        {
+            "image": "img/partners/Sprinkles & More Logo 1.svg",
+            "link": "#.",
+            "alt": "logo"
+        },
+        {
+            "image": "img/partners/logo-dark 1.svg",
+            "link": "#.",
+            "alt": "logo"
+        },
+        {
+            "image": "img/partners/Beyond Tablets Logo 1.svg",
+            "link": "#.",
+            "alt": "logo"
+        },
+        {
+            "image": "img/partners/actisure logo white-02 1.svg",
+            "link": "#.",
+            "alt": "logo"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "subtitle": "",
+    "title": "Turn Data Into Revenue, Efficiency & Competitive Advantage",
+    "description": "Integers Insights merges cutting-edge AI software development with a strong focus on performance-driven digital marketing, all aimed at helping businesses achieve tangible growth.From tailored dashboards and automated reporting tools to SEO, paid ads, and data-driven marketing strategies, everything we create is crafted to boost visibility, enhance performance, and maximize your return on investment.We steer clear of guesswork. Instead, we develop systems that are fueled by analytics.",
+    "button": {
+        "label": "Read more",
+        "link": "/about-2"
+    },
+    "gallery": [
+        {
+            "url": "img/content/Rectangle 4.png",
+            "width": "1000",
+            "height": "1500",
+            "alt": "img"
+        },
+        {
+            "url": "img/content/Rectangle 6.png",
+            "width": "1920",
+            "height": "1280",
+            "alt": "img"
+        },
+        {
+            "url": "img/content/Rectangle 5.png",
+            "width": "1000",
+            "height": "1500",
+            "alt": "img"
+        },
+        {
+            "url": "img/content/Rectangle 7.png",
+            "width": "1920",
+            "height": "1440",
+            "alt": "img"
+        }
+    ]
+}

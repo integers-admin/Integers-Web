@@ -1,0 +1,174 @@
+{
+    "settings": {
+        "formspreeURL": "https://formspree.io/f/your_api_key",
+        "mailchimp": {
+            "url": "",
+            "key": ""
+        }
+    },
+    "header": {
+        "logo": {
+            "text": "",
+            "accent": "."
+        },
+        "menu": [
+            {
+                "label": "Home",
+                "link": "/",
+                "children": 0
+            },
+            {
+                "label": "About",
+                "link": "#.",
+                "children": [
+                    {
+                        "label": "About Us",
+                        "link": "/about"
+                    },
+                    {
+                        "label": "Team",
+                        "link": "/team"
+                    }
+                ]
+            },
+            {
+                "label": "Services",
+                "link": "/services",
+                "children": 0
+            },
+            {
+                "label": "Portfolio",
+                "link": "/portfolio",
+                "children": 0
+            },
+            {
+                "label": "Contact",
+                "link": "/contact",
+                "children": 0
+            }
+        ]
+    },
+    "footer": {
+        "logo": {
+            "text": "Empowering Business Growth Through <br />",
+            "accent": " Data & Intelligence"
+        },
+        "description": "Integers Insights offers cutting-edge AI-driven SaaS applications and innovative digital marketing solutions tailored to help businesses thrive through the power of data, analytics, and smart automation. Our holistic approach guarantees measurable performance boosts and sustainable growth.",
+        "menu": [
+            {
+                "label": "Home",
+                "link": "/"
+            },
+            {
+                "label": "Portfolio",
+                "link": "/portfolio"
+            },
+            {
+                "label": "Contact",
+                "link": "/contact"
+            },
+            {
+                "label": "About",
+                "link": "/about"
+            }
+        ],
+        "links": [
+            {
+                "label": "Terms & Conditions",
+                "link": "/term-condition"
+            },
+            {
+                "label": "Privacy Policy",
+                "link": "/privacy-policy"
+            },
+            {
+                "label": "Cookie Policy",
+                "link": "/cookie-policy"
+            },
+            {
+                "label": "Data Security",
+                "link": "/data-security"
+            },
+            {
+                "label": "Careers",
+                "link": "/career"
+            }
+        ],
+        "copy": "©2026 Integers Insights Private Limited | All Rights Reserved",
+        "dev1": "Developed by",
+        "dev2": "Integers Tech",
+        "bg_image": "/img/hero/1.jpg",
+        "instagram": {
+            "images": [
+                "img/content/instagram-2/Rectangle 28.png",
+                "img/content/instagram-2/Rectangle 30.png",
+                "img/content/instagram-2/Rectangle 29.png",
+                "img/content/instagram-2/Rectangle 31.png",
+                "img/content/instagram-2/Rectangle 32.png",
+                "img/content/instagram-2/Rectangle 33.png"
+            ],
+            "button": {
+                "label": "Our Instagram",
+                "link": "https://www.instagram.com/integers.insights/"
+            }
+        }
+    },
+    "contacts": {
+        "email": "info@integersinsights.com",
+        "tel": "+91 93212 56706"
+    },
+    "social": [
+        {
+            "link": "https://www.instagram.com/integers.insights/",
+            "icon": "/img/icons/instagram.svg",
+            "title": "instagram"
+        },
+        {
+            "link": "#",
+            "icon": "/img/icons/youtube.svg",
+            "title": "youtube"
+        },
+        {
+            "link": "https://www.linkedin.com/company/integerstech/",
+            "icon": "/img/icons/linkedin.svg",
+            "title": "linkedin"
+        },
+        {
+            "link": "#",
+            "icon": "/img/icons/snapchat.svg",
+            "title": "snapchat"
+        },
+        {
+            "link": "#",
+            "icon": "/img/icons/twitter.svg",
+            "title": "twitter"
+        }
+    ],
+    "social1": [
+        {
+            "link": "https://www.instagram.com/integers.insights/",
+            "icon": "/img/icons/instagram1.svg",
+            "title": "instagram"
+        },
+        {
+            "link": "#",
+            "icon": "/img/icons/youtube1.svg",
+            "title": "youtube"
+        },
+        {
+            "link": "https://www.linkedin.com/company/integerstech/",
+            "icon": "/img/icons/linkedin1.svg",
+            "title": "linkedin"
+        },
+        {
+            "link": "#",
+            "icon": "/img/icons/snapchat1.svg",
+            "title": "snapchat"
+        },
+        {
+            "link": "#",
+            "icon": "/img/icons/twitter1.svg",
+            "title": "twitter"
+        }
+    ]
+}

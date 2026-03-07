@@ -1,0 +1,166 @@
+{
+    "subtitle": "Prices",
+    "title": "Choose the digital growth plans",
+    "description": "Discover our flexible digital marketing packages designed to boost your traffic, leads, and revenue. Whether it’s SEO, paid ads, automation, or performance tracking, our plans are crafted to provide measurable ROI, all backed by a clear strategy and transparent pricing.",
+    "button": {
+        "label": "Contact us",
+        "link": "/contact"
+    },
+    "items": [
+        {
+            "name": "Basic",
+            "subname": "for Startup & Small Industries",
+            "price": "$1000",
+            "price_after": "/mo",
+            "price_label": "&9999/year (2 months free on yearly subscription)",
+            "list": [
+                {
+                    "active": 1,
+                    "value": "1 Website design & maintain"
+                },
+                {
+                    "active": 1,
+                    "value": "Basic SEO"
+                },
+                {
+                    "active": 1,
+                    "value": "2 Social media platforms management"
+                },
+                {
+                    "active": 1,
+                    "value": "10 creatives monthly"
+                },
+                {
+                    "active": 1,
+                    "value": "4 Shorts & 1 long video monthly"
+                },
+                {
+                    "active": 1,
+                    "value": "1 Company brochure, 2 product flyers, 4 exhibition material"
+                },
+                {
+                    "active": 1,
+                    "value": "50-100 Leads generation**"
+                },
+                {
+                    "active": 0,
+                    "value": "Email marketing & design"
+                },
+                {
+                    "active": 0,
+                    "value": "Marketplaces listing (Alibaba/Indiamart)"
+                },
+                {
+                    "active": 0,
+                    "value": "Market research reports"
+                }
+            ],
+            "button": {
+                "label": "Choose a plan",
+                "link": "/contact"
+            }
+        },
+        {
+            "name": "Pro",
+            "subname": "for SMEs, Distributors & Mid Scale",
+            "price": "$10000",
+            "price_after": "/mo",
+            "price_label": "&99999/year (2 months free on yearly subscription)",
+            "list": [
+                {
+                    "active": 1,
+                    "value": "2 Website design & maintain"
+                },
+                {
+                    "active": 1,
+                    "value": "Basic +Technical SEO"
+                },
+                {
+                    "active": 1,
+                    "value": "4 Social media platforms management"
+                },
+                {
+                    "active": 1,
+                    "value": "30 creatives monthly"
+                },
+                {
+                    "active": 1,
+                    "value": "8 Shorts & 1 long video monthly"
+                },
+                {
+                    "active": 1,
+                    "value": "100-200 Leads generation**"
+                },
+                {
+                    "active": 1,
+                    "value": "Email marketing & 2 emailers design monthly"
+                },
+                {
+                    "active": 0,
+                    "value": "Marketplaces listing (Alibaba/Indiamart)"
+                },
+                {
+                    "active": 0,
+                    "value": "Market research reports"
+                }
+            ],
+            "button": {
+                "label": "Choose a plan",
+                "link": "/contact"
+            }
+        },
+        {
+            "name": "Enterprise",
+            "subname": "for Corporates & Large Scale",
+            "price": "$25000",
+            "price_after": "/mo",
+            "price_label": "$24999/year (2 months free on yearly subscription)",
+            "list": [
+                {
+                    "active": 1,
+                    "value": "4 Website design & maintain"
+                },
+                {
+                    "active": 1,
+                    "value": "Advanced SEO"
+                },
+                {
+                    "active": 1,
+                    "value": "6 Social media platforms management"
+                },
+                {
+                    "active": 1,
+                    "value": "50+ monthly creatives"
+                },
+                {
+                    "active": 1,
+                    "value": "15+ Shorts & 2 long video monthly"
+                },
+                {
+                    "active": 1,
+                    "value": "4 Company brochure, 16 product flyers, 16 exhibition material"
+                },
+                {
+                    "active": 1,
+                    "value": "200-350 Leads generation**"
+                },
+                {
+                    "active": 1,
+                    "value": "Email marketing & 10+ emailers design monthly"
+                },
+                {
+                    "active": 1,
+                    "value": "Marketplaces listing (Alibaba/Indiamart)"
+                },
+                {
+                    "active": 1,
+                    "value": "10 Market research reports"
+                }
+            ],
+            "button": {
+                "label": "Choose a plan",
+                "link": "/contact"
+            }
+        }
+    ]
+}

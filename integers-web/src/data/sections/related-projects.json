@@ -1,0 +1,10 @@
+{
+    "subtitle": "Related projects",
+    "title": "More Impactful Work",
+    "description": "Explore similar AI-driven solutions and digital systems designed to deliver measurable business growth.",
+    "button": {
+        "label": "View all",
+        "link": "/portfolio"
+    },
+    "numOfItems": 3
+}

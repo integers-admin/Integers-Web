@@ -1,0 +1,9 @@
+{
+    "subtitle": "Portfolio",
+    "title": "Our Services",
+    "description": "We create and build smart SaaS applications that are customized to fit your business needs - smart marketing dashboards, analytics systems, automation tools, and internal platforms.  Also, we provide digital marketing solutions - SEO services, web development, social media marketing, performance marketing, trending content, brochures design and so on...",
+    "button": {
+        "label": "View all",
+        "link": "/portfolio"
+    }
+}
