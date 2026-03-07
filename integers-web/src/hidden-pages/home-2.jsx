@@ -20,7 +20,7 @@ const PartnersSlider = dynamic( () => import("@components/sliders/Partners"), { 
 
 const Home2 = (props) => {
   return (
-    <Layouts invert footerBg={"img/content/10.jpg"} footerInst>
+    <Layouts invert footerBg={""} footerInst>
       <HeroTwoSection />
       <AboutThreeSection />
       <CountersSection />

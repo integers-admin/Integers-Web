@@ -51,7 +51,7 @@ const About2 = ( props ) => {
         "height": 1280
       },
       {
-        "url": "/img/content/10.jpg",
+        "url": "",
         "width": 1000,
         "height": 1500
       },
