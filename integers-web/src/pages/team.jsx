@@ -61,7 +61,7 @@ const Team = () => {
         "role": "Data Engineer"
       },
       {
-        "image": "/img/team/11.png",
+        "image": "/img/team/11.jpeg",
         "name": "Amarjit",
         "role": "Full Stack Developer"
       }
