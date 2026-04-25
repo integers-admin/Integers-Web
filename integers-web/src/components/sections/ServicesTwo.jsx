@@ -28,7 +28,7 @@ const ServicesTwoSection = ({ services }) => {
                                     <div key={`services2-item-${key}`} className="col-lg-6">
 
                                         {/* service card */}
-                                        <Link href={`/services/${item.id}`} className="mil-service-card mil-appearance mil-icon-2-trigger mil-mb-30">
+                                        <Link href={`/products/${item.id}`} className="mil-service-card mil-appearance mil-icon-2-trigger mil-mb-30">
                                             <div className="mil-card-content">
                                                 {/* icon */}
                                                 <img src={item.image} alt={item.title} className="mil-card-icon" />

@@ -1,7 +1,7 @@
 ---
 #preview
 title: Project Identity
-image: /img/portfolio/Rectangle 41.jpg
+image: /img/portfolio/Rectangle 41.png
 imageWidth: 1200
 imageHeight: 800
 category:

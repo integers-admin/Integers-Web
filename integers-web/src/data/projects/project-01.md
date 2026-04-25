@@ -1,7 +1,7 @@
 ---
 #preview
 title: Project Mosaic
-image: /img/portfolio/Rectangle 39.jpg
+image: /img/portfolio/Rectangle 39.png
 imageWidth: 1200
 imageHeight: 1200
 category:

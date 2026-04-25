@@ -11,59 +11,59 @@ const Team = () => {
     "description": "We're a team of AI engineers, data strategists, and digital growth experts dedicated to creating scalable systems for today's businesses. By blending artificial intelligence, analytics, and a focus on performance, we tackle complex challenges and turn them into measurable growth and a lasting competitive edge.",
     "items": [
       {
-        "image": "/img/team/1.png",
+        "image": "/img/team/Nikhil Raut.png",
         "name": "Nikhil Raut",
-        "role": "Director"
+        "role": "Co-Founder & CEO"
       },
       {
-        "image": "/img/team/2.png",
+        "image": "/img/team/Virendra Kini.png",
         "name": "Virendra Kini",
-        "role": "Assistant Manager - Marketing"
+        "role": "Sr. System Developer"
       },
       {
-        "image": "/img/team/3.jpeg",
+        "image": "/img/team/Devendra Rajapurkar.jpeg",
         "name": "Devendra Rajapurkar",
-        "role": "Visual Designer"
+        "role": "Sr. Quality Analyst"
       },
       {
-        "image": "/img/team/4.png",
-        "name": "Rahul Mahale",
-        "role": "SEO & Coordinator"
-      },
-      {
-        "image": "/img/team/5.png",
-        "name": "Omkar Bandarkar",
-        "role": "Motion Graphic Designer"
-      },
-      {
-        "image": "/img/team/6.jpeg",
-        "name": "Vinit Pandhre",
-        "role": "Social Media Coordinator"
-      },
-      {
-        "image": "/img/team/7.jpeg",
-        "name": "Sahil Pawaskar",
-        "role": "Graphic Designer"
-      },
-      {
-        "image": "/img/team/8.png",
-        "name": "Aishwarya Salunkhe",
-        "role": "Content Writer"
-      },
-      {
-        "image": "/img/team/9.jpg",
+        "image": "/img/team/Yukta Moolya.jpg",
         "name": "Yukta Moolya",
         "role": "AI/ML Engineer"
       },
       {
-        "image": "/img/team/10.jpeg",
+        "image": "/img/team/Neel Naik.jpeg",
         "name": "Neel Naik",
         "role": "Data Engineer"
       },
       {
-        "image": "/img/team/11.jpeg",
-        "name": "Amarjit",
+        "image": "/img/team/Amarjit.png",
+        "name": "Amarjit Gupta",
         "role": "Full Stack Developer"
+      },
+      {
+        "image": "/img/team/Vinit Pandhre.jpeg",
+        "name": "Vinit Pandhare",
+        "role": "Jr. Developer"
+      },
+      {
+        "image": "/img/team/Aishwarya Salunkhe.png",
+        "name": "Aishwarya Salunkhe",
+        "role": "UX Writer"
+      },
+      {
+        "image": "/img/team/ayushi.png",
+        "name": "Ayushi Nainwani",
+        "role": "Brand Executive"
+      },
+      {
+        "image": "/img/team/Omkar Bandarkar.png",
+        "name": "Omkar Bandarkar",
+        "role": "Motion Graphic Designer"
+      },
+      {
+        "image": "/img/team/Sahil Pawaskar.jpeg",
+        "name": "Sahil Pawaskar",
+        "role": "Visual Designer"
       }
     ]
   }
@@ -78,7 +78,7 @@ const Team = () => {
         <div className="row justify-content-between mil-mb-120">
           <div className="col-lg-5">
             <span className="mil-link mil-softened-60 mil-appearance mil-mb-30">
-              <span style={{ color: "#001413" }}>{Content.subtitle}</span>
+              {Content.subtitle}
             </span>
             <h3 className="mil-appearance mil-mb-30" dangerouslySetInnerHTML={{ __html: Content.title }} />
           </div>
@@ -112,7 +112,7 @@ const Team = () => {
                     <h5>{item.name}</h5>
                     {/* post */}
                     <span className="mil-link mil-softened-50">
-                      <span style={{ color: "#001413" }}>{item.role}</span>
+                      <span style={{ color: "#001413",letterSpacing:"1px" }}>{item.role}</span>
                     </span>
                   </div>
                 </div>

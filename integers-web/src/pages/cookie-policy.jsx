@@ -105,7 +105,7 @@ const CookiePolicy = () => {
                     <p className="paragraph-text-custom-child">If you have any questions about how we use cookies, please reach out to us.</p>
 
                     <p>Integers Insights Private Limited
-                        Unit No 27, 2nd Floor, Vicino Building,
+                        Unit No 28, 2nd Floor, Vicino Building,
                         New Link Road, Goregaon (Mumbai),
                         Goregaon West, Maharashtra, 400104, India
                     </p>

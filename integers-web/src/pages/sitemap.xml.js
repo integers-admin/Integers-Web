@@ -1,25 +1,15 @@
-import { getSortedServicesData } from "@library/services";
-import { getSortedProjectsData } from "@library/projects";
+import { getSortedServicesData } from "@/src/lib/products";
 
 const BASE_URL = "https://www.integersinsights.com";
 
-function generateSiteMap(services, projects) {
+function generateSiteMap(services = []) {
   const currentDate = new Date().toISOString();
 
   const serviceUrls = services.map((item) => `
     <url>
-      <loc>${BASE_URL}/services/${item.id}</loc>
-      <lastmod>${currentDate}</lastmod>
+      <loc>${BASE_URL}/products/${encodeURIComponent(item.id)}</loc>
+      <lastmod>${item.date || currentDate}</lastmod>
       <changefreq>monthly</changefreq>
-      <priority>0.8</priority>
-    </url>
-  `).join("");
-
-  const projectUrls = projects.map((item) => `
-    <url>
-      <loc>${BASE_URL}/portfolio/${item.id}</loc>
-      <lastmod>${currentDate}</lastmod>
-      <changefreq>weekly</changefreq>
       <priority>0.8</priority>
     </url>
   `).join("");
@@ -42,7 +32,7 @@ function generateSiteMap(services, projects) {
   </url>
 
   <url>
-    <loc>${BASE_URL}/services</loc>
+    <loc>${BASE_URL}/products</loc>
     <lastmod>${currentDate}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -53,13 +43,6 @@ function generateSiteMap(services, projects) {
     <lastmod>${currentDate}</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>${BASE_URL}/portfolio</loc>
-    <lastmod>${currentDate}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
   </url>
 
   <url>
@@ -99,20 +82,22 @@ function generateSiteMap(services, projects) {
 
   ${serviceUrls}
 
-  ${projectUrls}
-
 </urlset>`;
 }
 
 export async function getServerSideProps({ res }) {
-  const services = getSortedServicesData();
-  const projects = getSortedProjectsData();
+  try {
+    const services = getSortedServicesData() || [];
 
-  const sitemap = generateSiteMap(services, projects);
+    const sitemap = generateSiteMap(services);
 
-  res.setHeader("Content-Type", "text/xml");
-  res.write(sitemap);
-  res.end();
+    res.setHeader("Content-Type", "application/xml");
+    res.write(sitemap);
+    res.end();
+  } catch (error) {
+    res.statusCode = 500;
+    res.end();
+  }
 
   return { props: {} };
 }

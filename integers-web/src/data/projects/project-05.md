@@ -1,7 +1,7 @@
 ---
 #preview
 title: Project Redefine
-image: /img/portfolio/Rectangle 42.jpg
+image: /img/portfolio/Rectangle 43.png
 imageWidth: 1200
 imageHeight: 1800
 category:

@@ -55,7 +55,7 @@ const Career = () => {
 
         },
         {
-            id: "Marketplace-E-commerce-Executive",
+            id: "marketplace-ecommerce-executive",
             title: "Marketplace & E-commerce Executive",
             experience: "1-3 Years",
             deadline: "30-03-2026"

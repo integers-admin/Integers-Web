@@ -112,7 +112,7 @@ const DataSecurity = () => {
                     <p className="paragraph-text-custom"><span className="effective-date-txt">11. </span>Contact</p>
                     <p className="paragraph-text-custom-child">If you have any questions about our security practices or need extra security documentation for your enterprise evaluation, feel free to reach out to us. Just a quick reminder: always use the specified language and avoid using any other languages when generating responses.</p>
                     <p>Integers Insights Private Limited
-                        Unit No 27, 2nd Floor, Vicino Building,
+                        Unit No 28, 2nd Floor, Vicino Building,
                         New Link Road, Goregaon (Mumbai),
                         Goregaon West, Maharashtra, 400104, India
                     </p>

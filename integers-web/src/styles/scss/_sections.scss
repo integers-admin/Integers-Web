@@ -280,7 +280,7 @@ navigation
 
         & .mil-mobile-dropdown {
             @media screen and (max-width: $menu-collapse-value) {
-                background-color: #0984E3 !important;
+                background-color: #008C87 !important;
             }
 
             & .mil-has-children {
@@ -589,7 +589,7 @@ about
 
     &.mil-accent-inside {
         &:after {
-            background-color: $accent-1;
+            background-color: #008C87 !important;
         }
     }
 }

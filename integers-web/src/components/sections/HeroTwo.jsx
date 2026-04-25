@@ -11,15 +11,16 @@ const HeroTwo = () => {
 
                 <div className="container">
                     <h1 className="mil-mb-30 mil-appearance" dangerouslySetInnerHTML={{ __html: Data.title }} />
+                    <p className="home-page-subtitle mil-appearance">Designed for Everyone</p>
 
                     {/* buttons */}
                     <div className="mil-appearance mil-mb-30">
-                        <Link href={Data.button1.link} className="mil-button mil-button-rounded mil-button-md mil-button-dark mil-scale-down-trigger mil-accent-trigger mil-buttons-space" style={{backgroundColor:"#0984E3"}}>
+                        <Link href={Data.button1.link} className="mil-button mil-button-rounded mil-button-md mil-button-dark mil-scale-down-trigger mil-accent-trigger mil-buttons-space">
                             <span>{Data.button1.label}</span>
                         </Link>
-                        <Link href={Data.button2.link} className="mil-link-hover mil-scale-down-trigger">
+                        {/* <Link href={Data.button2.link} className="mil-link-hover mil-scale-down-trigger">
                             {Data.button2.label}
-                        </Link>
+                        </Link> */}
                     </div>
                     {/* buttons end */}
 
@@ -43,7 +44,7 @@ const HeroTwo = () => {
 
                     <div className="mil-hero3-image-position mil-appearance">
                         <div className="mil-hero3-image-frame">
-                            <img src={Data.image.url} alt={Data.image.alt} className="mil-scale-img" data-value-1="1" data-value-2="1.2" />
+                            <img src={Data.image.url} alt={Data.image.alt} className="mil-scale-img" data-value-1="1" data-value-2="1.2"  />
                         </div>
 
                         <div className="mil-hero-text-line">

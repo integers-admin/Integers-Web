@@ -1,7 +1,7 @@
 ---
 #preview
 title: Project Revolution
-image: /img/portfolio/Rectangle 40.jpg
+image: /img/portfolio/Rectangle 40.png
 imageWidth: 1200
 imageHeight: 1217
 category: 

@@ -7,40 +7,22 @@
     },
     "items": [
         {
-            "name": "Paul Trueman",
+            "que": "Still doing market research manually?",
             "image": "img/team/1.png",
             "role": "CEO Mil design studio",
-            "text": "Automate reporting and eliminate manual inefficiencies"
+            "ans": "Integers Insight gives you faster, smarter, and more accurate insights in seconds."
         },
         {
-            "name": "Paul Trueman",
+            "que": "Tired of switching between tools?",
             "image": "img/team/2.png",
             "role": "CEO Mil design studio",
-            "text": "Optimize marketing budgets using performance analytics"
+            "ans": "Centralize everything in one AI-powered platform with Integers Insights."
         },
         {
-            "name": "Paul Trueman",
+            "que": "Want to generate a market report?",
             "image": "img/team/3.png",
             "role": "CEO Mil design studio",
-            "text": "Increase lead generation through targeted digital strategies"
-        },
-        {
-            "name": "Paul Trueman",
-            "image": "img/team/4.png",
-            "role": "CEO Mil design studio",
-            "text": "Improve executive decision-making with real-time dashboards"
-        },
-        {
-            "name": "Paul Trueman",
-            "image": "img/team/3.png",
-            "role": "CEO Mil design studio",
-            "text": "Scale operations with intelligent automation systems"
-        },
-        {
-            "name": "Paul Trueman",
-            "image": "img/team/4.png",
-            "role": "CEO Mil design studio",
-            "text": "Enhance digital presence with branding & visibility growth"
+            "ans": "Reports providing businesses with real-time, data-driven market analysis."
         }
     ]
 }

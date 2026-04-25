@@ -1,7 +1,7 @@
 {
     "subtitle": "Portfolio",
-    "title": "Our Services",
-    "description": "We create and build smart SaaS applications that are customized to fit your business needs - smart marketing dashboards, analytics systems, automation tools, and internal platforms.  Also, we provide digital marketing solutions - SEO services, web development, social media marketing, performance marketing, trending content, brochures design and so on...",
+    "title": "Problems we solve",
+    "description": "Experts spend hours manually analyzing markets, generating reports, and switching between platforms. We combine all of your digital marketing tools in one tool with our artificial intelligence-based solutions, which keep you updated with market trends and provide you with 24-hour automated surveillance. Get precise, well-organized data and automatically generated reports without even switching tabs.",
     "button": {
         "label": "View all",
         "link": "/portfolio"

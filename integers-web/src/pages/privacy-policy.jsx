@@ -162,7 +162,7 @@ const Privacy = () => {
                     <p className="paragraph-text-custom-child">If you have any questions about this Privacy Policy, please get in touch with us at:</p>
 
                     <p>Integers Insights Private Limited
-                        Unit No 27, 2nd Floor, Vicino Building,
+                        Unit No 28, 2nd Floor, Vicino Building,
                         New Link Road, Goregaon (Mumbai),
                         Goregaon West, Maharashtra, 400104, India
                     </p>

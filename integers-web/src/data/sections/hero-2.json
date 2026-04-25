@@ -1,65 +1,65 @@
 {
-    "title": "Data-Driven Smart Digital Solutions<br /> for Business Growth",
+    "title": "AI-Powered Marketing SaaS Built <br />for Data-Driven Growth",
     "button1": {
-        "label": "Explore Our Solutions",
-        "link": "/services"
+        "label": "Explore Our Products",
+        "link": "/products"
     },
     "button2": {
         "label": "Schedule a Strategy Call",
         "link": "/contact"
     },
     "image": {
-        "url": "img/hero/hero-banners.jpg",
+        "url": "img/hero/hero-banner.png",
         "alt": "Image"
     },
     "rotateText": "DATA ANALYTICS AUTOMATION",
     "lineText": [
         {
+            "text": "Market research & analysis",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "Marketing strategy",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "AI agents",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "Software as a service (SaaS)",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "Personalization",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "AI for analysis",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "Search Engine Optimization (SEO)",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "Performance Marketing",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "Market Research Report ",
+            "separator": "&#x2022;"
+        },
+        {
+            "text": "Digital Marketing Tools",
+            "separator": "&#x2022;"
+        },
+        {
             "text": "AI BASED SOFTWARE",
             "separator": "&#x2022;"
         },
         {
-            "text": "PERFORMANCE MARKETING",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "SEO & WEB DESIGNING",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "CREATIVES FOR PAID ADS",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "COMPANY & PRODUCT BRANDING",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "EXPERIENCED TEAM",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "TRENDING VIDEOS EDITING",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "AI BASED SOFTWARE",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "PERFORMANCE MARKETING",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "SEO & WEB DESIGNING",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "CREATIVES FOR PAID ADS",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "COMPANY & PRODUCT BRANDING",
+            "text": "Email Extraction",
             "separator": ""
         }
     ]

@@ -113,7 +113,7 @@ const Term = () => {
 
                     <p>
                         Integers Insights Private Limited
-                        Unit No 27, 2nd Floor, Vicino Building,
+                        Unit No 28, 2nd Floor, Vicino Building,
                         New Link Road, Goregaon (Mumbai),
                         Goregaon West, Maharashtra, 400104, India
                     </p>

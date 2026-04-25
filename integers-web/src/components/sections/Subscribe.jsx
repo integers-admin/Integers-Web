@@ -30,7 +30,7 @@ const SubscribeSection = ({ bgColorClass }) => {
             }
 
         } catch (error) {
-            toast.error("Something went wrong");
+            toast.error("Something went wrong",error);
         } finally {
             setLoading(false);
         }

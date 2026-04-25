@@ -18,27 +18,18 @@
                 "children": 0
             },
             {
-                "label": "About",
-                "link": "#.",
-                "children": [
-                    {
-                        "label": "About Us",
-                        "link": "/about"
-                    },
-                    {
-                        "label": "Team",
-                        "link": "/team"
-                    }
-                ]
-            },
-            {
-                "label": "Services",
-                "link": "/services",
+                "label": "Products",
+                "link": "/products",
                 "children": 0
             },
             {
-                "label": "Portfolio",
-                "link": "/portfolio",
+                "label": "About Us",
+                "link": "/about",
+                "children": 0
+            },
+            {
+                "label": "Team",
+                "link": "/team",
                 "children": 0
             },
             {
@@ -50,26 +41,31 @@
     },
     "footer": {
         "logo": {
-            "text": "Empowering Business Growth Through <br />",
-            "accent": " Data & Intelligence"
+            "text": "Most efficient AI marketing <br />",
+            "accent": "Tools for Business"
         },
-        "description": "Integers Insights offers cutting-edge AI-driven SaaS applications and innovative digital marketing solutions tailored to help businesses thrive through the power of data, analytics, and smart automation. Our holistic approach guarantees measurable performance boosts and sustainable growth.",
+        "description": "Within our cutting-edge AI technology platform, integrates all the marketing tools your business needs, from rapid market research and analysis to content creation, SEO optimization, and intelligent campaign recommendations. Everything operates automatically and in real time, eliminating the need to switch between platforms, search for information, or wait days for relevant insights.",
         "menu": [
             {
                 "label": "Home",
                 "link": "/"
             },
             {
-                "label": "Portfolio",
-                "link": "/portfolio"
+                "label": "Products",
+                "link": "/products"
+            },
+            {
+                "label": "About Us",
+                "link": "/about"
+            },
+            {
+                "label": "Team",
+                "link": "/team"
             },
             {
                 "label": "Contact",
-                "link": "/contact"
-            },
-            {
-                "label": "About",
-                "link": "/about"
+                "link": "/contact",
+                "children": 0
             }
         ],
         "links": [
@@ -96,7 +92,7 @@
         ],
         "copy": "©2026 Integers Insights Private Limited | All Rights Reserved",
         "dev1": "Developed by",
-        "dev2": "Integers Tech",
+        "dev2": "Integers Insights",
         "bg_image": "",
         "instagram": {
             "images": [
@@ -124,22 +120,17 @@
             "title": "instagram"
         },
         {
-            "link": "#",
+            "link": "https://www.youtube.com/@integers.insights",
             "icon": "/img/icons/youtube.svg",
             "title": "youtube"
         },
         {
-            "link": "https://www.linkedin.com/company/integerstech/",
+            "link": "https://www.linkedin.com/company/integersinsights",
             "icon": "/img/icons/linkedin.svg",
             "title": "linkedin"
         },
         {
-            "link": "#",
-            "icon": "/img/icons/snapchat.svg",
-            "title": "snapchat"
-        },
-        {
-            "link": "#",
+            "link": "https://x.com/integers71866",
             "icon": "/img/icons/twitter.svg",
             "title": "twitter"
         }
@@ -151,24 +142,20 @@
             "title": "instagram"
         },
         {
-            "link": "#",
+            "link": "https://www.youtube.com/@integers.insights",
             "icon": "/img/icons/youtube1.svg",
             "title": "youtube"
         },
         {
-            "link": "https://www.linkedin.com/company/integerstech/",
+            "link": "https://www.linkedin.com/company/integersinsights",
             "icon": "/img/icons/linkedin1.svg",
             "title": "linkedin"
         },
         {
-            "link": "#",
-            "icon": "/img/icons/snapchat1.svg",
-            "title": "snapchat"
-        },
-        {
-            "link": "#",
+            "link": "https://x.com/integers71866",
             "icon": "/img/icons/twitter1.svg",
             "title": "twitter"
         }
     ]
 }
+

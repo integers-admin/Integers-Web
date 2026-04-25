@@ -50,7 +50,7 @@ import Layouts from "@layouts/Layouts";
 import dynamic from "next/dynamic";
 
 import { getSortedPostsData } from "@library/posts";
-import { getSortedServicesData } from "@library/services";
+import { getSortedServicesData } from "@/src/lib/products";
 import { getSortedProjectsData } from "@library/projects";
 
 import HeroTwoSection from "@components/sections/HeroTwo"

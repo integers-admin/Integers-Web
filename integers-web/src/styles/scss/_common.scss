@@ -219,7 +219,7 @@ h6,
 .mil-dark,
 .mil-dark * {
     color: $dark !important;
-    fill: #0984E3 !important;
+    fill: #008C87 !important;
 }
 
 .mil-softened-5 {
@@ -637,7 +637,7 @@ button
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    background-color: #0984E3;
+    background-color: #008C87 !important;
     color: #FFF !important;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -749,7 +749,7 @@ button
 @media (hover: hover) and (pointer: fine) {
     .mil-button:hover {
         transform: scale(.95);
-        background-color: #0770C9 !important;
+        background-color: #007570 !important;
         color: #FFF;
 
         span {
@@ -760,7 +760,7 @@ button
 
 @media (hover: none) and (pointer: coarse) {
     .mil-button {
-        background-color: #0770C9;
+        background-color: #008C87;
         color: #FFF;
     }
 }

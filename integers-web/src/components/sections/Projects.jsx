@@ -73,7 +73,7 @@ const ProjectsSection = ( { projects } ) => {
                                     }
                                 </div>
                             </div>
-                            <Link href={`/portfolio/${item.id}`} className="mil-item-description mil-icon-2-trigger mil-accent-trigger">
+                            {/* <Link href={`/portfolio/${item.id}`} className="mil-item-description mil-icon-2-trigger mil-accent-trigger">
                                 <div className="mil-text-bg mil-mb-5">
                                     <h5 className="mil-light">{item.title}</h5>
                                 </div>
@@ -81,7 +81,17 @@ const ProjectsSection = ( { projects } ) => {
                                 <div className="mil-text-bg">
                                     <p className="mil-link mil-accent">{item.category}</p>
                                 </div>
-                            </Link>
+                            </Link> */}
+
+                             <div className="mil-item-description mil-icon-2-trigger mil-accent-trigger">
+                                <div className="mil-text-bg mil-mb-5">
+                                    <h5 className="mil-light">{item.title}</h5>
+                                </div>
+                                <br />
+                                <div className="mil-text-bg">
+                                    <p className="mil-link mil-accent">{item.category}</p>
+                                </div>
+                            </div>
                             
                             {item.type != "video" &&
                             <Item

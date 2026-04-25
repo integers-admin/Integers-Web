@@ -1,13 +1,13 @@
 {
     "subtitle": "Services",
-    "title": "Where AI Technology Meets Business Execution",
-    "description": "We don’t just create tools, we craft performance systems. Our method combines AI software development with practical execution, ensuring that your investment leads to real, measurable growth. Each dashboard, automation, and campaign strategy is thoughtfully designed with a focus on ROI and scalability.",
+    "title": "Discover demand before the market does.",
+    "description": "Our AI tools in marketing are used by organizations to conduct market research, competitor analysis, demand analysis, and price analysis. With the use of marketing tools, companies can identify business opportunities and market trends, which help them create better marketing strategies.",
     "button1": {
         "label": "See How We Deliver Results",
-        "link": "/portfolio"
+        "link": "/products"
     },
     "button2": {
-        "label": "View portfolio",
-        "link": "/portfolio"
+        "label": "View products",
+        "link": "/products"
     }
 }
