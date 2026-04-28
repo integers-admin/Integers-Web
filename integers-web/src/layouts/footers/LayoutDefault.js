@@ -129,9 +129,8 @@ const DefaultFooter = ({ bg, instagram, extraClass }) => {
           </div>
         </div>
 
-        {instagram && (
+        {/* {instagram && (
           <div className="mil-footer-instagram mil-mb-120">
-            {/* instagram */}
             <div className="mil-instagram-frame">
               <div className="mil-instagram mil-footer-instagram">
                 {appData.footer.instagram.images.map((item, key) => (
@@ -157,7 +156,26 @@ const DefaultFooter = ({ bg, instagram, extraClass }) => {
                 </a>
               </div>
             </div>
-            {/* instagram end */}
+          </div>
+        )} */}
+        {instagram && (
+          <div className="mil-footer-instagram mil-mb-120">
+            <div className="mil-instagram-frame">
+              <InstagramFeed />
+              <div className="mil-button-positions mil-appearance">
+                <a
+                  href={appData.footer.instagram.button.link}
+                  target="_blank"
+                  className="mil-button mil-button-lg mil-button-rounded mil-button-accent mil-scale-down-trigger"
+                  style={{ backgroundColor: "#0984E3", color: "#FFF" }}
+                >
+                  <span>
+                    <i className="fab fa-instagram"></i>{" "}
+                    {appData.footer.instagram.button.label}
+                  </span>
+                </a>
+              </div>
+            </div>
           </div>
         )}
       </div>
