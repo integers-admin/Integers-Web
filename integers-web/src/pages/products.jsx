@@ -4,7 +4,7 @@ import Layouts from "@layouts/Layouts";
 import { getSortedServicesData } from "@/src/lib/products";
 
 import CallToActionSection from "@components/sections/CallToAction";
-import PricingSection from "@components/sections/Pricing";
+// import PricingSection from "@components/sections/Pricing";
 
 import Link from "next/link";
 
@@ -99,7 +99,7 @@ const Products = (props) => {
       </div>
       {/* services end */}
 
-      <PricingSection />
+      {/* <PricingSection /> */}
       <CallToActionSection />
     </Layouts>
   );
