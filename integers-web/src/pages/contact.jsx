@@ -17,7 +17,7 @@ const Contact = () => {
       {
         icon: "img/icons/contact-icon.svg",
         label: "Call 24/7",
-        value: "+91 93212 56706",
+        value: "+91 8976993084",
       },
     ],
   };
