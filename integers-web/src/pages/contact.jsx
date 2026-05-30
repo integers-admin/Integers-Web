@@ -3,6 +3,7 @@ import Layouts from "@/src/layouts/Layouts";
 import { Formik } from "formik";
 import appData from "@data/app.json";
 import { ToastContainer, toast } from "react-toastify";
+import Seo from "../components/Seo";
 
 const Contact = () => {
   const Content = {
@@ -23,6 +24,12 @@ const Contact = () => {
   };
 
   return (
+    <>
+    <Seo
+        title="Contact Us"
+        description="Have questions about our AI market research tool or market report solutions? Contact Integers Insights for market research & competitor analysis."
+        url="https://www.integersinsights.com/contact"
+      />
     <Layouts>
       <PageBanner
         pageImage={"img/content/ContactBanner - 5.jpg"}
@@ -260,6 +267,7 @@ const Contact = () => {
       </div>
       {/* map end */}
     </Layouts>
+    </>
   );
 };
 export default Contact;

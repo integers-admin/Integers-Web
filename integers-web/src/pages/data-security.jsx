@@ -1,7 +1,14 @@
+import Seo from "../components/Seo";
 import Layouts from "../layouts/Layouts";
 
 const DataSecurity = () => {
     return (
+        <>
+        <Seo
+        title="Data Security & Compliance at Integers Insights"
+        description="Integers Insights protects your data with SSL encryption, role-based access control, secure cloud infrastructure & enterprise-grade security standards. Learn more."
+        url="https://www.integersinsights.com/data-security"
+      />
         <Layouts>
             <div className="mil-content-frame mil-p-120-90 privacy-page">
                 <div className="container">
@@ -125,6 +132,7 @@ const DataSecurity = () => {
                 </div>
             </div>
         </Layouts>
+        </>
     );
 };
 export default DataSecurity;

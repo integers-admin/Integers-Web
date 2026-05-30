@@ -1,7 +1,14 @@
+import Seo from "../components/Seo";
 import Layouts from "../layouts/Layouts";
 
 const CookiePolicy = () => {
     return (
+        <>
+        <Seo
+        title="Cookie Policy"
+        description="Find out how Integers Insights uses essential, analytics & cookies. Learn what cookies we use, how long they stay & how to manage your preferences. Read more."
+        url="https://www.integersinsights.com/cookie-policy"
+      />
         <Layouts>
             <div className="mil-content-frame mil-p-120-90 privacy-page">
                 <div className="container">
@@ -118,6 +125,7 @@ const CookiePolicy = () => {
                 </div>
             </div>
         </Layouts>
+        </>
     );
 };
 export default CookiePolicy;

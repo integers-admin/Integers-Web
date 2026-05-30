@@ -1,7 +1,14 @@
+import Seo from "../components/Seo";
 import Layouts from "../layouts/Layouts";
 
 const Term = () => {
     return (
+        <>
+        <Seo
+        title="Terms and Conditions | Integers Insights"
+        description="Read the Terms & Conditions governing your use of the Integers Insights website & services."
+        url="https://www.integersinsights.com/term-condition"
+      />
         <Layouts>
             <div className="mil-content-frame mil-p-120-90 privacy-page">
                 <div className="container">
@@ -126,6 +133,7 @@ const Term = () => {
                 </div>
             </div>
         </Layouts>
+        </>
     );
 };
 export default Term;
