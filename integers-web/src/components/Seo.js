@@ -6,6 +6,9 @@ export default function Seo({
   //   image,
   url,
 }) {
+
+  const ogImage ="https://www.integersinsights.com/images/og-image.png";
+
   return (
     <Head>
       <title>{title}</title>
@@ -24,7 +27,7 @@ export default function Seo({
 
       <meta property="og:description" content={description} />
 
-      {/* <meta property="og:image" content={image} /> */}
+      <meta property="og:image" content={ogImage} />
 
       <meta property="og:url" content={url} />
     </Head>
